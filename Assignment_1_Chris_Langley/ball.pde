@@ -32,6 +32,7 @@ class Ball {
     w = tempW;
     speed = 0;
     gravity = _gravity;
+    fill(random(1,255),random(1,255),random(1,255),life);
     
   }
   
@@ -69,18 +70,19 @@ class Ball {
   //    return false;
   //  }
   //}
-  
+ 
+   
   void display() {
     
     
     // Display the circle
-    noFill();
+   // noFill();
       //stroke(random(1,255),0,random(1,255),life);
-      stroke(255);
+      //stroke(255);
     // stroke(random(1,255),random(1,255),random(1,255),life);
     //noStroke();
     //fill(255);
-   //fill(random(1,255),random(1,255),random(1,255),life);
+  
   // fill(colR,colG,colB);
     //stroke(0,life);
  //line(x,y,x,y);
